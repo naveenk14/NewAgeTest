@@ -1,0 +1,112 @@
+.acc-row:hover {
+  background-color: rgba(247, 252, 255, 1);
+}
+.inner-port {
+  height: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  position: relative;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  box-sizing: border-box;
+}
+.outer-port {
+  position: absolute;
+  width: 100%;
+  left: -1px;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.1) 0px 4px 11px;
+  margin-top: 44px;
+  box-sizing: border-box;
+  padding: 8px 0px 16px 20px;
+}
+
+.outer-dest-port {
+  position: absolute;
+  width: 100%;
+  left: -1px;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.1) 0px 4px 11px;
+  margin-top: 44px;
+  box-sizing: border-box;
+  padding: 8px 0px 16px 20px;
+}
+.port-content:hover {
+  background-color: rgb(223, 226, 233);
+}
+.port-content {
+  border-radius: 8px;
+}
+.port-flag {
+  width: 22px !important;
+  height: 18px !important;
+}
+.portCountry {
+  color: var(--colors-style-base-base-400, #94a2b2);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 0;
+}
+.portnamecode {
+  margin-bottom: 0;
+  letter-spacing: 0.01em;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19px;
+  overflow: hidden;
+  max-width: 200px;
+}
+.input-port-flag {
+  align-self: center;
+  margin-right: 5px;
+}
+.book-now:hover {
+  background-color: #0DA3DE !important;
+}
+
+.focusSearch:hover {
+  background-color: #cfd6df !important;
+}
+.focusSearch-input:hover {
+  background-color: #cfd6df !important;
+}
+.focusSearch:focus-within {
+  border-color: #fce2d5 !important;
+  box-shadow: 0 0 0 2px #fce2d5 !important;
+  background-color: #ffffff !important;
+}
+.focusSearch:hover .focusSearch-input {
+  background-color: #cfd6df !important;
+}
+
+.focusSearch:focus-within .focusSearch-input {
+  background-color: #ffffff !important;
+}
+
+.focusSearch-input:focus-within {
+  background-color: #ffffff !important;
+}
+.focusSearch-input:focus {
+  background-color: #ffffff !important;
+}
+
+.ant-select-selector:hover {
+  background-color: #cfd6df !important;
+}
+.ant-select-dropdown .ant-select-item-option-selected {
+  background-color: white !important;
+  color: black;
+  font-weight: 400 !important;
+}
+/* .ant-select-selector:focus-within{
+  border-color: #FCE2D5 !important;
+  box-shadow: 0 0 0 2px #FCE2D5!important;
+  background-color: #ffffff !important;
+} */

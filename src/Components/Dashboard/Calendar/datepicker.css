@@ -1,0 +1,77 @@
+.calendar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calendar-header button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.calendar-header button svg {
+  color: white;
+  height:13px;
+  width:6px;
+}
+.day-name{
+  color:#25233A;
+  font-size: 10px;
+  font-weight: 700;
+  opacity:15%;
+}
+.calendar-body {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  width:40px;
+}
+.calendar-body>.calendar-day:hover:not(.disabled){
+  background-color: silver !important;
+}
+/* .active-date:hover{
+  background-color: silver !important;
+
+} */
+.calendar-day.empty {
+  visibility: hidden;
+}
+.disabled {
+  border: none;
+  /* font-weight: bold; */
+}
+.calendar {
+  height: 382px;
+  top: 1387px;
+  left: 121px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+}
+.red-mark{
+  background-color:#F80606;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.green-mark{
+  background-color: #2CA02C;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  margin-top: 20px;
+  border-radius: 8px;
+
+}

@@ -1,0 +1,55 @@
+/* This is for overwrite Ant design image border and background */
+.profile_section .ant-upload-wrapper.ant-upload-picture-circle-wrapper .ant-upload.ant-upload-select{
+    background-color: #E7EAF0 !important;
+    border-width: 2px !important;
+    margin-left: 22px !important;
+}
+
+.profile_header_section .ant-card-body {
+    padding: 12px !important;
+}
+.profile_header_section{
+    margin-bottom: 20px !important;
+}
+
+/*This is for horizontal_line */
+.profile_section .horizontal_line{
+    height: 70px;
+    background-color: #E7EAF0;
+    width: 1.5px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 45px;
+}
+
+/* This is for profile_box */
+.profile_section .profile_box>div:not(:nth-child(3),:nth-child(4)){
+    width: 100%;
+}
+.profile_section .profile_box .profile_box_3{
+    width: 50%;
+}
+.profile_section .profile_box .edit_icon_box{
+    width: 5%;
+}
+
+/* This is profile_title styling */
+.profile_section .profile_box>div>div>p:nth-child(1){
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: .01em;
+    color: #67788E;
+    margin-bottom: 4px !important;
+}
+.profile_section .profile_box>div>div>p:nth-child(2){
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: .01em;
+    color: #384656;
+}
+.profile_section .profile_box>div>div:nth-child(1){
+    margin-bottom: 20px;
+}

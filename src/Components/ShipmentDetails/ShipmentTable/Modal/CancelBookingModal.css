@@ -1,0 +1,43 @@
+/* / cancelling and booking modal / */
+
+.cancel_booking_modal{
+    background: url(../../../../assets/CancellingBg.svg);
+    background-repeat: no-repeat;
+}
+.cancel_booking_modal .modal_cancelling_body p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .01em;
+}
+
+.cancel_booking_modal .modal_cancelling_body h4{ 
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: .01em;
+    
+}
+
+.cancel_booking_modal .modal_cancelling_buttons .yes_shipment_btn{
+    padding: 7.5px 24px;
+    border-radius: 8px;
+    background-color: #ffff;
+    border: 1px solid  #E7EAF0;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.cancel_booking_modal .modal_cancelling_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.cancel_booking_modal .modal_cancelling_buttons .no_cancel_btn{
+    padding: 7.5px 24px;
+    border-radius: 8px;
+    background-color: #D32D2F;
+    color: #ffff;
+    border: 1px solid #D32D2F;  
+
+}

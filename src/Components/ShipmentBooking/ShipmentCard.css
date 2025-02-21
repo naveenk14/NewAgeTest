@@ -1,0 +1,216 @@
+
+
+.card1 {
+   
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    
+  }
+ 
+  .column {
+    border: none;
+    padding: 20px;
+    border-radius: 10px; 
+    display: flex;
+    padding: 30px 0;
+    
+  }
+  .column:hover, .column:focus-within{
+    box-shadow: 0 0 10px #0DA3DE ;
+    border: 1px solid #0DA3DE;
+}
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .divider {
+    height: 60%;
+    width: 1px;
+    background-color: rgba(0,0,0,0.05); 
+    
+  }
+  .input-field::placeholder {
+    color:#ACB8C4; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .shipment-card {
+    position: relative;
+  }
+  
+  .origin-port{
+    left: 30%;
+  }
+  .dest-port{
+    left:50%;
+  }
+  .cargo-port{
+    left:70%;
+  }
+    
+  .searchIcon{
+     background: #0DA3DE;
+     color: white;
+     font-size:60px;
+  }
+  
+ 
+  .origin-port {
+    left: 50%; 
+  }
+
+  .dest-port {
+    left: 50%; 
+  }
+
+  .cargo-port {
+    left: 50%; 
+  }
+
+  .acc-row:hover {
+    background-color: rgba(247, 252, 255, 1);
+  }
+  .inner-all-port {
+    height: 100%;
+    /* max-height: 150px;
+    overflow-y: auto; */
+    position: relative;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    box-sizing: border-box;
+  }
+  .outer-all-port {
+    position: absolute;
+    width: 100%;
+    left: -1px;
+    top: 46px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,
+      rgba(0, 0, 0, 0.1) 0px 4px 11px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    padding: 10px;
+    max-height: 350px;
+    overflow: auto;
+  }
+  
+  .outer-dest-port {
+    position: absolute;
+    width: 100%;
+    left: -1px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,
+      rgba(0, 0, 0, 0.1) 0px 4px 11px;
+    margin-top: 44px;
+    box-sizing: border-box;
+    padding: 8px 0px 16px 20px;
+  }
+  .port-all-content:hover {
+    background-color: rgb(223, 226, 233);
+  }
+  .port-all-content {
+    border-radius: 8px;
+  }
+  .port-flag {
+    width: 22px !important;
+    height: 18px !important;
+  }
+  .portCountry {
+    color: var(--colors-style-base-base-400, #94a2b2);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+  .portnamecode {
+    margin-bottom: 0;
+    letter-spacing: 0.01em;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    overflow: hidden;
+    max-width: 200px;
+  }
+  .input-port-flag {
+    align-self: center;
+    margin-right: 5px;
+  }
+  .book-now:hover {
+    background-color: #0DA3DE !important;
+  }
+  
+  .focusSearch:hover {
+    background-color: #cfd6df !important;
+  }
+  .focusSearch-input:hover {
+    background-color: #cfd6df !important;
+  }
+  .focusSearch:focus-within {
+    border-color: #fce2d5 !important;
+    box-shadow: 0 0 0 2px #fce2d5 !important;
+    background-color: #ffffff !important;
+  }
+  .focusSearch:hover .focusSearch-input {
+    background-color: #cfd6df !important;
+  }
+  
+  .focusSearch:focus-within .focusSearch-input {
+    background-color: #ffffff !important;
+  }
+  
+  .focusSearch-input:focus-within {
+    background-color: #ffffff !important;
+  }
+  .focusSearch-input:focus {
+    background-color: #ffffff !important;
+  }
+  
+  .ant-select-selector:hover {
+    background-color: #cfd6df !important;
+  }
+  .ant-select-dropdown .ant-select-item-option-selected {
+    background-color: white !important;
+    color: black;
+    font-weight: 400 !important;
+  }
+
+  .rate-engine-box.highlighted {
+    /* background-color: #f0f0f0; */
+    /* border-color: #000; Highlight border color */
+    z-index: 1000;
+  }
+  .dimmeds-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dimmed effect */
+    z-index: 999; /* Ensure it overlays other content */
+  }
+
+  .ant-tabs-nav .ant-tabs-tab-active {
+    border: none !important; /* Ensure no border on active tab */
+  }
+
+  .listfocus:focus {
+    background-color: rgb(207, 207, 207) !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 8px;
+  }
+
+  .search_focus:focus {
+    box-shadow: 0 0 10px #0DA3DE ;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none !important;
+    border-radius: 8px;
+  }

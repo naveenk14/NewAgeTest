@@ -1,0 +1,73 @@
+/* .profile_section .manage_accounts_description{
+    width: 171px;
+    margin-bottom: 20px;
+}
+.profile_section .manage_accounts_description p:nth-child(1){
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: .01em;
+    color: #181E25;
+    margin-bottom: 6px !important;
+}
+.profile_section .manage_accounts_description p:nth-child(2){
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: .01em;
+    color: #384656;
+} */
+
+
+/* This is for KeyAccountmanagers Styling */
+
+.profile_section .Key_account_content{
+    border: 1px solid  #E7EAF0;
+    border-radius: 8px;
+    box-shadow: 0px 6px 18px 0px #0000001A;
+    padding: 20px;
+
+}
+
+/* .profile_section .keyhe{
+    padding: 20px; */
+    /* border: 1px solid  #E7EAF0;
+    width: 815px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 18px 0px #0000001A; */
+/* } */
+
+.profile_section .Key_account_content th{
+    padding: 5px 10px;
+    background-color:#3C3844;
+    color: #ffff;
+    width: 778px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 34px;
+}
+
+.profile_section .Key_account_content tbody>tr>td:nth-child(1){
+    font-weight: 400 !important;
+}
+
+.profile_section .Key_account_content tbody>tr>td:nth-child(3){
+    font-weight: 400 !important;
+}
+
+.profile_section .Key_account_content td{
+    width: 739px;
+    padding: 10px;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 13px !important;
+    line-height: 34px;
+    color: #1E293B;
+}
+/* .Toastify__toast-theme--dark{
+    border: 1px solid white !important;
+} */
+
+.Toastify__progress-bar--error{
+    background-color: #F01E1E !important;
+}

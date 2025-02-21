@@ -1,0 +1,56 @@
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    padding:12px;
+}
+
+/* this is for input with checkbox */
+
+.MuiDialog-root .ant-form-vertical .ant-form-item-label >label::after{
+    display: none !important;
+}
+#edit_profile_modal_section .ant-form-vertical .ant-form-item-label >label{
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+#edit_profile_modal_section .ant-form-item-label >label{
+    font-weight: 500;
+    font-style: 13px;
+    line-height: 19px;
+    letter-spacing: .01em;
+    color: #67788E !important;
+}
+#edit_profile_modal_section .ant-checkbox-checked .ant-checkbox-inner{
+    background-color: #D32D2F !important;
+    border-color:#D32D2F !important;
+}
+
+#edit_profile_modal_section .ant-flex>div{
+    flex: 1 !important;
+}
+#edit_profile_modal_section .ant-flex>div:nth-child(1){
+    margin-right: 10px;
+}
+#edit_profile_modal_section .ant-flex>div:nth-child(2){
+    margin-left: 10px;
+}
+
+#edit_profile_modal_section .ant-form>.ant-flex .ant-form-item-control-input{
+    border:1px solid #d9d9d9 !important;
+    border-radius: 8px;
+}
+#edit_profile_modal_section .ant-form>.ant-flex .ant-select-single.ant-select-lg{
+    height: 49px !important;
+}
+
+#edit_profile_modal_section .ant-input-group .ant-input-group-addon .ant-select{
+    width: 100px !important;
+    height: 50px !important;
+}
+
+#edit_profile_modal_section .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    overflow-y: unset !important;
+}
+
+#edit_profile_modal_section .ant-select-selection-item{
+    max-width:200px !important;
+}

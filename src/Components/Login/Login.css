@@ -1,0 +1,98 @@
+.loginheader {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 10px;
+  }
+  .inputLabel {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #33343d;
+  }
+  .inputLabel1 {
+    color: #cbcbcb;
+  }
+  .checkText {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .logbtn {
+    width: 200px;
+    height: 45px;
+    border-radius: 7px;
+    background: #011c69;
+  }
+  .logbtn:hover {
+    background: #011c69 !important;
+  }
+  .login-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    min-width: 1364px;
+    overflow: hidden;
+  }
+  
+  .login-image {
+    max-width: 988px;
+    height: 100vh;
+  }
+  
+  .login-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .login-form-container {
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    max-height: 100vh;
+    width: 100%;
+  }
+  
+  .login-form {
+    width: 348px;
+  }
+  
+  /* .login-form {
+    margin-left: auto;
+    margin-right: auto;
+  
+    display: flex;
+    flex-direction: column;
+   
+  } */
+  .logLink {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+  }
+  .error {
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .input-error {
+    border: 1px solid #b3b2ba;
+    background: #f1171733 !important;
+  }
+  .input-error:focus {
+    outline: none;
+    border-color: #b3b2ba;
+  }
+  .input-error input {
+    background: #ed252500 !important;
+  }
+  .input-error1 {
+    color: red;
+  }
+  

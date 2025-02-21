@@ -1,0 +1,94 @@
+#shipment_map_modal {
+    box-shadow: none !important;
+}
+
+/* booking_row */
+#shipment_map_modal .booking_row{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 45px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 0px 40px;
+}
+#shipment_map_modal .booking_row>div{
+    height: 100%;
+}
+
+#shipment_map_modal .booking_row>div p{
+    white-space: nowrap;
+}
+
+#shipment_map_modal .booking_row>div>p:nth-child(1){
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing:.01em !important;
+    color: #495A6E;
+    margin-bottom: 4px;
+
+}
+#shipment_map_modal .booking_row>div>p:nth-child(2){
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing:.01em !important;
+    color: #384656;
+    ;
+
+}
+
+/* destination_row */
+#shipment_map_modal .destination_row .flag_img{
+    width: 18px;
+    height: 14px;
+}
+#shipment_map_modal{
+    margin-bottom: 20px;
+}
+#shipment_map_modal .destination_row{
+    display: flex;
+    flex-wrap: wrap !important;
+    padding: 25px 40px 0px !important;
+}
+#shipment_map_modal .destination_row p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: .01em !important;
+    text-align: center;
+    color: #181E25 !important;
+    
+}
+#shipment_map_modal .destination_row .left_column{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    height: 32px;
+    margin-bottom: 20px;
+}
+#shipment_map_modal .destination_row .left_column>*{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#shipment_map_modal .destination_row .estimate_box>p:nth-child(2){
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing:.01em !important;
+    color: #495A6E;
+    white-space: nowrap !important;
+
+}
+
+#shipment_map_modal .right_column{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 32px;
+    margin-bottom: 20px;
+}

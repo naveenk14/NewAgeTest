@@ -1,0 +1,91 @@
+ .shipment_table_section  .ant-card-head{
+    background: #F8FAFC !important;
+    padding: 0px 10px;
+}
+ .shipment_table_section  .ant-card-body{
+    padding: 0px 20px 0px 20px;
+    overflow: auto;
+    max-height: 500px;
+    /* position: relative; */
+}
+/* .shipment_table_section  .ant-card-body::-webkit-scrollbar{
+    width:10px !important
+  }
+  .shipment_table_section  .ant-card-body::-webkit-scrollbar-thumb {
+    background: rgb(220, 220, 220) !important; 
+    border-radius: 10px !important;
+    max-height: 5px !important;
+  }
+  
+.shipment_table_section  .ant-card-body::-webkit-scrollbar-track {
+    background-color: #f1f1f1 !important; 
+  } */
+/* .css-ypiqx9-MuiDialogContent-root::-webkit-scrollbar{
+    width:10px !important
+  }
+.css-ypiqx9-MuiDialogContent-root::-webkit-scrollbar-thumb {
+    background: rgb(220, 220, 220) !important; 
+    border-radius: 10px !important;
+    max-height: 5px !important;
+  }
+  
+.css-ypiqx9-MuiDialogContent-root::-webkit-scrollbar-track {
+    background-color: #f1f1f1 !important; 
+  } */
+.shipment_table_section .ant-card-contain-tabs >.ant-card-head {
+    position: relative !important;
+}
+.shipment_table_section .ant-tabs .ant-tabs-tab-btn{
+    letter-spacing: .01em !important;
+}
+ /* .shipment_table_section  .ant-card-head .ant-tabs-ink-bar{
+    background-color: #F01E1E !important;
+    height: 4px;
+    border-radius: 4px 4px 0px 0px;
+    overflow: hidden;
+} */
+/* .shipment_table_section  .ant-card-body>div{
+    max-height: 950px !important;
+} */
+.shipment_table_section  .ant-card-body .ant-tabs-nav-list{
+    padding-top: 20px ;
+}
+.shipment_table_section  .ant-card-body .ant-tabs-nav{
+    height: 500px;
+}
+.shipment_table_section  .ant-card-body .ant-tabs-tab{
+    height: 46.1px; 
+    width: 252px;
+    margin-bottom: 20px !important;
+}
+.shipment_table_section .ant-card-body .ant-tabs-tab-active{
+    background: #FFF3ED;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.shipment_table_section .ant-card-body .ant-tabs-tab-btn span:nth-child(2){
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .01em;
+    color: #181E25;
+}
+.ant-input-affix-wrapper-lg{
+    padding: 12px !important;
+}
+.shipment_table_section .ant-card-body .ant-tabs-tabpane{
+    padding: 20px 0px 20px 20px !important;
+}
+.shipment_table_section .ant-card-body>div::-webkit-scrollbar{
+    /* display: none !important; */
+    max-height: 8px !important;
+    max-width: 10px !important;
+}
+.shipment_table_section .ant-tabs{
+    width: 100%;
+ } 
+
+ /* vessel_button */
+ .shipment_table_section .vessel_button:hover{
+    background-color: #DA1E28 !important;
+ }

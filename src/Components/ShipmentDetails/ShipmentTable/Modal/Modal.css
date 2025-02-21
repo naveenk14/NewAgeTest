@@ -1,0 +1,29 @@
+.modal_background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-content:flex-start;
+    flex-wrap:wrap;
+    align-items: start;
+    justify-content: start;
+    z-index:9999;
+}
+
+.modal_card{
+    background: white;
+    margin: auto;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 8px;
+    position:relative;
+    top:74px;
+}
+
+@media screen and (max-width:767px){
+    .modal_card{
+        width: 100vh !important;
+    }
+}

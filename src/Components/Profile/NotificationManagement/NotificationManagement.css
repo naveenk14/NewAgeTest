@@ -1,0 +1,22 @@
+.notification_drawer{
+    /* display: none !important; */
+    display: none;
+    transform: translate3d(100vw, 0, 0);
+}
+.notification_drawer_active{
+    transform: translate3d(0vw, 0, 0);
+    /* right: 0px !important;
+    left: .01% !important; */
+    z-index: 666;
+    min-height: 1120px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* this is for a checkbox */
+.notify_drawer .ant-checkbox-wrapper{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .01em;
+    color: rgba(107, 99, 99, 0.88);
+}

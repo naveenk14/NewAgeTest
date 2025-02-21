@@ -1,0 +1,23 @@
+.refer_inputs .ant-form-vertical .ant-form-item-label >label{
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 19px;
+   letter-spacing: .01em;
+   color: #67788E;
+}
+
+.refer_inputs .ant-input-affix-wrapper{
+    padding: 11px 12px !important;
+}
+.refer_inputs .ant-btn{
+    height: 45.6px !important;
+    background-color: #D32D2F;
+}
+
+.refer_inputs .ant-input-compact-first-item{
+    width: 335px !important;
+}
+
+.refer_inputs .ant-btn-compact-last-item{
+    width: 95px !important;
+}

@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Oswald:wght@700&family=Poppins:wght@600&family=Roboto+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@700&family=Poppins:wght@600&family=Roboto+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.sidebar {
+  width: 324px !important;
+  height: 1350px;
+  top: 86px;
+  gap: 0px;
+  border-radius: 6px 0px 0px 6px;
+  background-color: #f1f1f1;
+  padding-right: 0px !important;
+}
+.div-position {
+  position: absolute;
+  top: 0px;
+  left: 324px;
+  /* right: 10px; */
+}
+.Notifiction {
+  width: 100%;
+  height: 79px !important;
+  cursor: pointer;
+  gap: 30px;
+  border: 0px 4px 0px 0px;
+  align-items: center !important;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  background: #f0f0f0;
+}
+
+.Notifiction.active {
+  background: #ffffff;
+}
+
+.Notificationstyle {
+  width: 114px;
+  height: 26px;
+}
+
+.Notificationstyle p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #000000;
+}
+
+.Notifictionp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  gap: 10px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 4px;
+  background: #ea0d0d;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.Notification2 {
+  width: 165px;
+  height: 66px;
+  top: 114px !important;
+  left: 353px !important;
+  gap: 0px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 39px;
+  text-align: left;
+  color: #000000;
+}
+.custom-dropdown {
+  border-radius: 0px;
+  width: 125px;
+  height: 33px;
+  border: 1px solid #eaeaea;
+}
+.bookingcreated {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  gap: 10px;
+}
+.bookingcreated1 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+}
+.bookingcreated {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.2px;
+  text-align: left;
+}
+.bookingcreated1 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+}
+.bookingcreated2 {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: left;
+  /* padding-top: 10px; */
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bookingcreated3 {
+  border-radius: 12px;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.6px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #3a3a3a;
+  border: 1px solid #3a3a3a;
+  padding: 10px;
+  gap: 10px;
+}
+.green-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #2ca02c;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.bellicon {
+  width: 20px;
+  height: 20px;
+  top: 29.5px;
+  left: 50px;
+  gap: 0px;
+  color: #212121;
+}
+.Cardsize {
+  width: 991px;
+  /* height: 147px; */
+  border-radius: 12px;
+  border: 0px 0px 1px 0px;
+  padding: 7px 10px;
+  gap: 578px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px 0px #00000040;
+}
+.Cardsize:hover {
+  background-color: #f1f1f1;
+  /* transform: scale(1.1,1.1); */
+}
+/* .Cardsize:hover > .Cardsize:not(:hover){
+  filter: blur(10px) !important;
+  transform: scale(0.9,0.9);
+} */
+.bookingcreatedmessage {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+}
+.bookingcreatedmessage1 {
+  width: 967px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.2px;
+}
+.read {
+  height: 50px;
+  padding: 15px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.44px;
+}
+
+.read.active {
+  font-size: 20px;
+  font-weight: 700;
+}
+.notify-box {
+  width: 991px;
+  border-radius: 20px;
+}
+.card-header-container {
+  margin: 0;
+}
+.card-header {
+  padding: 0px !important;
+  border-radius: 8px 8px 0 0;
+  border: 0px 0px 2px 0px;
+  cursor: pointer;
+  transition: border-bottom 0.3s;
+}
+
+.card-header.active {
+  border-bottom: 3px solid #f01e1e;
+}
+
+.notify-box .card-body:hover{
+  background-color: #f1f1f1;
+}

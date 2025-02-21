@@ -1,0 +1,54 @@
+/* transaction modal */
+
+ /* modal input property  */
+
+/* .transaction_modal .transaction_modal_body input:focus{
+    border: 3px solid #93777859;
+}
+
+.transaction_modal .transaction_modal_body input:hover{ 
+    background-color: aliceblue !important;
+} */
+.transaction_modal .modal_upload_content h6{
+    line-height: 24px;
+    font-size: 14px;
+    color:#67788E;
+    letter-spacing: .01em;
+}
+.transaction_modal .modal_cancel_icon{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+  /* modal border width */
+.transaction_modal .ant-upload-wrapper .ant-upload-drag{
+    border-width: 3px !important;
+}
+
+ /* modal confirm button  */
+
+.transaction_modal .modal_confirm_button .confirm_btn{
+    width: 100%;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .01em;
+    line-height: 26px;
+    background-color: #D32D2F;
+    color: #ffff;
+    border: none;
+    padding: 0px 22px 0px 22px;
+    gap: 7px;
+    border-radius: 8px;
+}
+
+.transaction_modal .modal_confirm_button .confirm_btn:hover{
+    background-color: red !important;
+}
+
+.transaction_modal .ant-form-item-label >label{
+    font-weight: 500;
+    letter-spacing: .01em;
+    color: #67788E !important;
+}

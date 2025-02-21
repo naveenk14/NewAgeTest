@@ -1,0 +1,37 @@
+.header-container {
+    width: 1271px; /* Fixed width */
+    height: 41px; /* Hug height */
+    padding: 11px 20px 11px 30px; /* Padding */
+    gap: 20px; /* Gap between elements */
+    border-bottom: 1px solid #000; /* Border */
+    opacity: 0; /* Initial opacity */
+    /* Additional styling */
+    position: absolute;
+    top: 818px;
+    left: 85px;
+  }
+  
+  .header-container > * {
+    /* Apply gap between elements */
+    margin-right: 20px;
+  }
+  
+  .table-data {
+    width: 1229px; /* Fill width */
+    height: 66px; /* Hug height */
+    padding: 12px 10px; /* Padding */
+    gap: 0px; /* Gap */
+    border-bottom: 1px solid #000; /* Border */
+    justify-content: space-between; /* Justify */
+    opacity: 0; /* Initial opacity */
+    /* Additional styling */
+    display: flex;
+  }
+  
+  .table-data > * {
+    /* Apply gap between elements */
+    margin-right: 0px;
+  }
+  
+  
+  

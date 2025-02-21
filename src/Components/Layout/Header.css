@@ -1,0 +1,52 @@
+.sidebar_notification ::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (max-width: 2560px){
+    .sidebar_notification{
+        height: 82% !important;
+        /* background-color: rgb(166, 171, 157); */
+    }
+}
+
+@media screen and (max-width:1440px){ 
+    .sidebar_notification{
+        height: 90% !important;
+        /* background-color: aquamarine; */
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .sidebar_notification{
+        height: 89% !important;
+        /* background-color: darkgray; */
+    }
+}
+
+@media screen and (max-width :790px){
+    .sidebar_notification{
+        height: 88% !important;
+        /* background-color: lightblue; */
+    }
+}
+
+@media screen and (max-width:575px ){
+    .sidebar_notification{
+        height: 89% !important;
+        /* background-color: pink; */
+    }
+}
+
+@media screen and (max-width: 375px){
+    .sidebar_notification{
+        height: 93.2% !important;
+        /* background-color: yellowgreen; */
+    }
+}
+
+/* @media  screen and (min-width: 320px) {
+    .sidebar_notification{
+        height: 90% !important;
+        background-color: blue;
+    }
+} */

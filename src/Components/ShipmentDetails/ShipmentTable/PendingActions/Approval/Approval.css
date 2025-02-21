@@ -1,0 +1,32 @@
+.approval .ant-table-thead .ant-table-cell {
+    background-color: #F8FAFC !important;
+    ;
+  }
+
+  .approval .ant-table-wrapper .ant-table-tbody > tr > td:nth-child(1){
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing:.01em !important;
+    color: #181E25;
+
+  }
+  .approval .ant-table-wrapper .ant-table-tbody > tr > td:nth-child(2){
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing:.01em !important;
+    color: #181E25;
+
+  }
+  .approval .ant-table-wrapper .ant-table-tbody > tr > td:nth-child(3):nth-child(4){
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing:.01em !important;
+    color:#495A6E;
+  }
+  .approval .ant-table-wrapper .ant-table-thead > tr > th{
+    font-size: 13px;
+  }
+  

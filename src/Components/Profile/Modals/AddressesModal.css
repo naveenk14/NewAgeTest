@@ -1,0 +1,21 @@
+#address_modal .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    overflow-y: unset !important;
+}
+
+#address_modal .css-ypiqx9-MuiDialogContent-root{
+    overflow: unset !important;
+}
+.address_modal_row .ant-form-vertical .ant-form-item-label >label{
+    color: #67788E;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: .01em;
+}
+
+#address_modal .ant-col .ant-form-item-required::before{
+    position: absolute !important;
+    right: -12px !important;
+    top: 2px;
+    margin-inline-end: unset !important;
+}

@@ -1,0 +1,147 @@
+/* .payment_section .left_details>span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing:.01em !important;
+}
+.payment_section .left_details .Shipper_title p:nth-child(1){
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing:.01em !important;
+    color: #181E25;
+}
+.payment_section .left_details .Shipper_title p:nth-child(2){
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing:.01em !important;
+    color: #384656;
+
+}
+.payment_section .title_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing:.01em !important;
+    color: #181E25;
+
+}
+.payment_section .add_saved_address{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing:.01em !important;
+    color: #495A6E;
+    text-align: right;
+
+} */
+
+.payment_section .my_credit_content>p:nth-child(1){
+    color: #495A6E;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing:.01em !important;
+}
+.payment_section .my_credit_content>p:nth-child(2){
+    color: #1E293B;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+
+}
+.payment_section .my_credit_content>p:nth-child(2) span{
+    color: #1E293B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+
+}
+.payment_section .ageing_content>p:nth-child(1){
+    color: #495A6E;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing:.01em !important;
+}
+.payment_section .ageing_content>p:nth-child(2){
+    color: #1E293B;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+
+}
+.payment_section .ageing_content>p:nth-child(2) span{
+    color: #1E293B;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+
+}
+
+.payment_section .payment_box .payment_box_header p{
+    color: #181E25;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing:.01em !important;
+}
+.payment_section .payment_box .payment_box_body a{
+    color: #2065CA;
+    ;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing:.01em !important;
+}
+.payment_section .payment_box .payment_box_header{
+    margin-bottom: 10px;
+}
+.payment_section .payment_box .payment_box_body{
+    margin-bottom: 10px;
+}
+
+.payment_section .payment_box{
+    background: #F3F5F7;
+    padding:12px !important;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+
+/* credit_section */
+.payment_section .credit_section .credit_title p:nth-child(1){
+    color: #29333D;;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing:.01em !important;
+    margin-bottom: 4px !important;
+}
+.payment_section .credit_section .credit_title p:nth-child(2){
+    color:#384656;;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing:.01em !important;
+    margin-bottom: 20px;
+}
+
+/* ageing_section */
+.payment_section .ageing_section .ageing_title p:nth-child(1){
+    color: #29333D;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing:.01em !important;
+    margin-bottom: 4px !important;
+}
+.payment_section .ageing_section .ageing_title p:nth-child(2){
+    color:#384656;;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing:.01em !important;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,27 @@
+.loader-container {
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to bottom, #d4e6f4, #4cb3f4);
+  }
+  
+  .ship-icon {
+    color: white; 
+    position: absolute;
+    top: 50%;
+    left: 40%; 
+    animation: shakeShip 0.5s infinite linear alternate; 
+    font-size: 20rem;
+  }
+  
+  @keyframes shakeShip {
+    0% {
+      transform: rotate(-5deg); 
+    }
+    50% {
+      transform: rotate(5deg); 
+    }
+    100% {
+      transform: rotate(-5deg); 
+    }
+  }
+  

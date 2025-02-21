@@ -1,0 +1,59 @@
+.shipment_documents{
+  padding: 20px 0px;
+}
+
+.shipment_documents table td{
+    border-bottom: 1px solid #f0f0f0 !important;
+}
+.shipment_documents table td{
+  padding: 12px;
+}
+.shipment_documents table th{
+  padding: 12px;
+  white-space: nowrap;
+  vertical-align:middle !important;
+  font-weight: 600;
+}
+.shipment_documents table thead input{
+  margin-right: 10px !important;
+}
+.shipment_documents table tbody{
+  border: 1px solid #f0f0f0;
+  border-top-left-radius: 8px !important;
+  border-radius: 10px !important;
+}
+.shipment_documents table{
+  border:.5px solid #f0f0f0;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+.shipment_documents table td{
+    padding: 10px 12px;
+     white-space: nowrap;
+     vertical-align: middle !important;
+}
+.shipment_documents table thead th{
+     color: rgba(24, 30, 37, 1); 
+     background-color: rgba(248, 250, 252, 1);
+}
+.shipment_documents table tbody td:nth-child(1) span{
+     font-weight: 600;
+     font-size: 13px;
+     line-height: 19px;
+     letter-spacing: 1%;
+     color: #181E25;
+
+}
+ .shipment_documents  table tr td:nth-child(4) span{
+    background: rgba(243, 245, 247, 1);
+    border-radius: 4px;
+    padding: 8px !important;
+    justify-content: space-evenly;
+} 
+.shipment_documents table tbody input{
+  margin-top: 20px !important;
+  margin-right: 10px !important;
+}
+.shipment_documents .checkbox{
+  height: 20px;
+}

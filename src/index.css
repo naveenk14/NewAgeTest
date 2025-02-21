@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+*, *::after, *::before{
+  margin:0 ;
+  padding:0 ;
+  box-sizing : border-box;
+  font-family: 'Roboto', sans-serif ;
+}
+body{
+  overflow-x: hidden;
+}
+
+input::placeholder{
+  font-family: 'Roboto', sans-serif  ;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: .15px;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700 !important; 
+}
+
+.extra-bold {
+  font-weight: 900; 
+}
+
+a{
+  text-decoration: none ;
+}
+:root{
+  --dark-red:rgba(240, 30, 30, 1);
+  --dark-blue:rgb(4, 90, 196);
+}
+
+.card-row:hover{
+  /* background-color: rgba(247, 252, 255, 1); */
+  box-shadow:0px 0px 10px #384656 inset; 
+}
+.chip-data:hover{
+  background-color: black;
+  color:white;
+}
+.card1:hover{
+  box-shadow: 4px 2px 2px rgba(240, 30, 30, 1);
+}
+
+/* Style Adjustment for primeReact */
+.p-component{
+  font-family: 'Roboto', sans-serif !important;
+}
+.p-autocomplete-items{
+  background-color: white;
+}
+
+.p-tabview-title{
+  color:black;
+}
+.p-sortable-column{
+  font-size: 16px;
+}
+.p-icon-field{
+  width:25%;
+  padding-top: 20px;
+}
+.p-column-title{
+  font-size:14px;
+  font-weight: 700;
+  text-align: start !important;
+}
+.p-paginator{
+  justify-content: end;
+  background-color: rgba(225, 249, 252, 0.2);
+  right:-2px !important;
+}
+.p-paginator-current{
+  left:-1180px;
+}
+.p-button-label {
+  font-size: 13px !important; 
+  font-weight: 400;
+}
+.p-datatable .p-sortable-column .p-sortable-column-icon {
+  width: 45px !important;
+  height: 10px !important;
+  opacity: 0.7;
+}
+.p-datatable .p-sortable-column.p-highlight {
+  background: white !important;
+  color:black !important;
+}
+.p-datatable .p-sortable-column.p-highlight .p-sortable-column-icon {
+  color: #090909 !important;
+}
+.placeholder-color::placeholder {
+  color: rgba(172, 184, 196, 0.5) !important; /* Adjust the opacity as needed */
+}
+.body-section{
+  margin-top: 8rem;
+}
+.css-heg063-MuiTabs-flexContainer {
+  justify-content: space-around !important;
+ 
+}
+/* Booking Tabs*/
+/* :where(.css-dev-only-do-not-override-1okl62o).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+   border: none !important;
+} */
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #0b0b0b !important;
+}
+.css-i06ziq-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  border-radius: 24px !important;
+}
+/* For DropDown */
+.p-dropdown{
+  width: 99px !important;
+  height:25px !important;
+  border-radius: 7px;
+}
+.p-dropdown .p-dropdown-label.p-placeholder {
+  color: #B3B2BA;
+  font-size: 12px;
+  line-height: 14.06px;
+  padding:6px;
+}
+.p-dropdown .p-dropdown-trigger {
+  width:20px;
+  padding-right: 8px;
+  padding-top:4px;
+  color:#787885;
+}
+.p-dropdown .p-dropdown-label {
+  font-size: 12px !important;
+  padding: 4px 2px 5px 7px;
+}
+.p-dropdown-item {
+  font-size: 12px !important;
+  align-items: center !important;
+  padding: 5px;
+}
+.p-dropdown-items {
+  padding-left:12px !important;
+}
+:where(.css-dev-only-do-not-override-1okl62o).ant-col-20 {
+  display:block !important;
+}
+/* for Breadcrumb */
+.p-breadcrumb{
+  color: #4b5563;
+  border:none;
+}
+.p-breadcrumb a  {
+  color: #4b5563;
+  border:none;
+  text-decoration: none !important;
+}
+.p-breadcrumb ol  {
+  padding-left:5.5rem!important;
+}
+.p-datatable .p-datatable-tbody > tr > td {
+  white-space: nowrap;
+}
+/* .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 8px 2px !important;
+} */
+.css-t5uyrm-MuiPaper-root-MuiAccordion-root:last-of-type {
+  border:none !important;
+  box-shadow: none !important;
+  
+}
+.css-fljwet-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  padding:0 !important;
+}
+:where(.css-dev-only-do-not-override-1okl62o).ant-dropdown .ant-dropdown-menu{
+  width: fit-content !important;
+}
+
+::-webkit-scrollbar{
+  width:10px !important
+}
+::-webkit-scrollbar-thumb {
+  background: #384656 !important; 
+  border-radius: 10px !important;
+  max-height: 5px !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1 !important; 
+  /* border-radius: 10px; */
+  /* box-shadow: 1px 2px 5px rgb(239, 239, 239); */
+}
+
+@media screen and (max-width: 768px) {
+  .table th,
+  .table td {
+    padding: 0.5rem;
+    font-size: 0.9rem; 
+  }
+  
+}
+@media screen and (max-width: 992px) {
+  .col-lg-6 {
+    font-size: 16px; 
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .col-lg-6 {
+    font-size: 20px; 
+  }
+}
+
+

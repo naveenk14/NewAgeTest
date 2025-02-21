@@ -1,0 +1,19 @@
+/* change_Requirement */
+
+.change_require_modal .modal_requir_button .cancel_btn{
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: black;
+    background-color: #ffff;
+    border: 1px solid red;
+    font-weight: 500;
+    letter-spacing: .01em;
+}
+
+.change_require_modal .modal_requir_button .submit_btn{
+    padding: 8px 16px;
+    background-color: #D32D2F;
+    color: #ffff;
+    border: none !important;
+    border-radius: 8px;
+}

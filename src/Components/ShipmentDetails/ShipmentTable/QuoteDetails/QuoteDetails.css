@@ -1,0 +1,199 @@
+.Shipment_quote{
+    padding: 20px 0px;
+}
+.Shipment_quote .ref {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+}
+.Shipment_quote .pdf {
+    width: Hug (112px)px;
+    height: Fixed (40px)px;
+    gap: 3px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+}
+.Shipment_quote  table th {
+    background-color: #F3F5F7 !important;
+    padding: 10px !important;
+}
+.Shipment_quote table {
+    border: 1px solid #E7EAF0 !important;
+    border-radius: 8px !important;
+    overflow: hidden;
+}
+
+.Shipment_quote .table-responsive{
+    border-radius: 8px !important;
+}  
+.Shipment_quote  table tbody tr td{
+    background-color:  #F8FAFC !important ;
+    padding: 10px !important;
+}
+.Shipment_quote .break {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}
+.Shipment_quote .descrip {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}
+.Shipment_quote .amount {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align:right;
+}
+.Shipment_quote .origincharge {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}
+.Shipment_quote .one {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align:right;
+}
+.Shipment_quote .pickupcharge {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+.Shipment_quote .lorem {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+}
+.Shipment_quote .fifty {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align:right;
+}
+.Shipment_quote .Issuance {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+.Shipment_quote .four {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align:right;
+}
+.Shipment_quote .Freight {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}
+.Shipment_quote .eight {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align:right;
+}
+.Shipment_quote .destination {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}
+.Shipment_quote .twenty {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align:right;
+}
+.Shipment_quote .handling {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+.Shipment_quote .six {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align:right;
+}
+.Shipment_quote .import {
+    width: Fill (1,106px)px;
+    height: Hug (44px)px;
+    padding: 10px 10px 10px 20px;
+    gap: 0px;
+    border: 0px 0px 0.5px 0px;
+    opacity: 0px;
+}
+.Shipment_quote .custom {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+.Shipment_quote .three {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align:right;
+}
+.Shipment_quote .delivery {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+} 
+.Shipment_quote table tbody .total {
+    width: Fill (1,106px)px;
+    height: Fixed (434px)px;
+    background-color: rgba(243, 245, 247, 1);
+    
+}
+.Shipment_quote .totalamount {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}

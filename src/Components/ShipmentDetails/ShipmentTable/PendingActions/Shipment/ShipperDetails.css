@@ -1,0 +1,104 @@
+
+.shipper_section .shipper_details_row{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E7EAF0;
+    margin-left: 1px;
+}
+.shipper_section .consignee_details_row{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E7EAF0;
+    margin-left: 1px;
+}
+.shipper_section .pickup_details_row{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E7EAF0;
+    margin-left: 1px;
+}
+.shipper_section .delivery_section_row{
+    padding-bottom: 30px;
+    margin-left: 1px;
+}
+.shipper_section .left_details>span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing:.01em !important;
+}
+.shipper_section .left_details .Shipper_title p:nth-child(1){
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing:.01em !important;
+    color: #181E25;
+}
+.shipper_section .left_details .Shipper_title p:nth-child(2){
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing:.01em !important;
+    color: #384656;
+
+}
+.shipper_section .title_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing:.01em !important;
+    color: #181E25;
+
+}
+.shipper_section .add_saved_address{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing:.01em !important;
+    color: #495A6E;
+    text-align: right;
+
+}
+.btn_save{
+    text-decoration: none;
+    background-color: #D32D2F;
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing:.01em !important;
+}
+.btn_save:hover{
+    color: white;
+}
+
+/* required_icon_styling */
+.ant-col .ant-form-item-required::before{
+    position: absolute !important;
+    right: 0 !important;
+    top: 2px;
+    margin-inline-end: unset !important;
+}
+.ant-col .ant-form-item-required{
+    font-weight: 500;
+    font-size: 13px !important;
+    line-height: 19px;
+    letter-spacing: .01em;
+    color: #67788E !important;
+
+}
+
+/* input_border_styling */
+.shipment_details_section .ant-input-outlined:focus-within{
+    border-color:rgba(238, 238, 238, 0.816) !important;
+    box-shadow: 0px 0px 0px 2px rgb(255, 255, 213) !important;
+}
+.shipment_details_section .ant-input-disabled:hover:not([disabled]){
+    background-color: unset !important;
+}
+.shipment_details_section .ant-input-disabled{
+    background-color: unset !important;
+    border-color: unset;
+}

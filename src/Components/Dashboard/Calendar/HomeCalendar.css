@@ -1,0 +1,18 @@
+.calendar-dash {
+  width: 1269px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  top: 1319px;
+  left: 85px;
+}
+.date-pick {
+  border: 1px solid rgba(238, 239, 247, 1);
+  border-radius: 8px 8px 0px 0px;
+  /* padding: 16px 5px; */
+}
+.date-pick.active {
+  border-bottom: 2.5px solid rgba(240, 30, 30, 1);
+}
+ /* .home-calendar{
+  height: 480px;
+  min-width: 1271px;
+ } */

@@ -1,0 +1,19 @@
+.profile_section .transactions_description{
+    width: 173px;
+    margin-bottom: 20px;
+}
+.profile_section .transactions_description p:nth-child(1){
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: .01em;
+    color: #181E25;
+    margin-bottom: 6px !important;
+}
+.profile_section .transactions_description p:nth-child(2){
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: .01em;
+    color: #384656;
+}

@@ -1,0 +1,245 @@
+.p-datatable-header {
+  border: none;
+}
+
+.ant-tabs-nav-wrap {
+  height: 57px !important;
+}
+
+.pi-search {
+  display: none !important;
+}
+
+.custom-input::placeholder {
+  color: #888;
+  font-size: 5px !important;
+}
+
+.ant-tabs-nav-more {
+  display: none !important;
+}
+
+.p-dropdown:not(.p-disabled).p-focus {
+  box-shadow: none !important;
+}
+
+.ant-image-mask:hover {
+  display: none !important;
+}
+
+.origin-cell {
+  text-align: start !important;
+}
+.bodycell {
+  text-align: start !important;
+}
+.leaflet-top,
+.leaflet-bottom {
+  z-index: auto;
+}
+.ant-input {
+  font-family: "Roboto", sans-serif !important;
+}
+.booked {
+  background-color: #008000 !important;
+}
+.waringBtn {
+  background-color: #fddc69 !important;
+  color: black !important;
+  border-color: #fddc69 !important;
+  font-weight: 500 !important;
+}
+.dangerBtn {
+  background-color: #d32d2f;
+}
+
+.dangerBtn:focus {
+  box-shadow: none !important;
+}
+.waringBtn:focus {
+  box-shadow: none !important;
+}
+.booked:focus {
+  box-shadow: none !important;
+}
+
+#customers {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td {
+  padding: 8px;
+}
+#customers th {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/* #customers tr:nth-child(odd) {
+  background-color: rgba(185, 178, 178, 0.29);
+} */
+
+/* #customers tr:hover {
+  background-color: #ddd;
+} */
+.p-dropdown .p-dropdown-trigger {
+  display: none !important;
+}
+#customers th {
+  height: 36px;
+  text-align: center;
+  background-color: #3c3844;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+}
+#customers td {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 400;
+  height: 50px;
+  line-height: 19.2px;
+}
+.btnfamily {
+  font-family: "Lato" !important;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: -5px;
+}
+.custom-checkbox {
+  display: none;
+}
+
+.custom-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #797979;
+  margin-top: 5px;
+}
+
+.custom-checkbox:checked + label {
+  background-color: rgb(241, 226, 226);
+  border-color: black;
+}
+
+.custom-checkbox:checked + label:after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.dropdownfield1 .p-dropdown {
+  display: flex;
+  width: 70px !important;
+  height: 35px !important;
+  border: 1px solid #e7eaf0;
+  border-radius: 4px;
+  background-color: white;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.dropdownfield2 .p-dropdown {
+  display: flex;
+  width: 100px !important;
+  height: 35px !important;
+  border: 1px solid #e7eaf0;
+  border-radius: 4px;
+  background-color: white;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.tabs1 .ant-tabs .ant-tabs-ink-bar {
+  background: #141414;
+  height: 2px !important;
+  border-radius: 4px 4px 0px 0px;
+  margin-left: 3px;
+}
+.tabs1 .ant-tabs-tab-active .ant-tabs-tab-btn {
+  font-weight: 600 !important;
+  color: #181e25 !important;
+}
+.tabs1 .ant-tabs-tab {
+  padding: 16px 16px 13px !important;
+  margin: 0 !important;
+}
+.tabs1 .ant-tabs-nav {
+  margin: 0 !important;
+}
+/* .ant-tabs-top >.ant-tabs-nav{
+  margin: 0 !important;
+} */
+.fixed-shipment-card {
+  min-width: 1255px;
+  position: fixed !important;
+  top: 0 !important;
+  /* width: 100% !important; */
+  background-color: black;
+  z-index: 1000;
+  margin: 0;
+  left: 0 !important;
+}
+
+.centerdiv-white {
+  /* background-color: #fff; */
+  /* display: flex ; */
+  /* justify-content: center ; */
+  padding: 20px;
+}
+.ant-modal-close {
+  color: white !important;
+}
+.quote-request .ant-modal-content {
+  top: 0 !important;
+}
+
+.booking-modal-header {
+  font-family: var(--tertiary-font) !important;
+}
+.request-modal {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0.24px;
+}
+.request-modal-p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.14px;
+}
+.dimmed-background1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  padding-top: 180px !important;
+  overflow-y: none !important;
+}
+.marginTop{
+  margin-top: 150px;
+}
+
+:where(.css-dev-only-do-not-override-1okl62o).ant-tabs-top >.ant-tabs-nav::before{
+  border-bottom: none !important;
+}

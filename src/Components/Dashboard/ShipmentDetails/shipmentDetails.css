@@ -1,0 +1,82 @@
+.heading {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 23.44px !important;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 28px;
+}
+
+.grid-column {
+  flex: 1;
+}
+.shipment,
+.todo,
+.inbox {
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+}
+.layout {
+  min-width: 400px;
+  height: 379px;
+  top: 372px !important;
+  left: 85px !important;
+  border-radius: 8px ;
+  /* box-shadow: 0px 0px 10px rgba(0,0,0,0.1); */
+}
+ .shipments-layout{
+  width: 352px;
+height: 259px;
+top: 466px;
+left: 111px;
+gap: 0px;
+
+}
+.shipment-col{
+  width: 152px;
+height: 75px;
+top: 477px;
+left: 121px;
+gap: 0px;
+} 
+.todo-row{
+  width: 370px;
+height: 81px;
+top: 563px;
+left: 535px;
+gap: 0px;
+
+}
+.selected {
+  background: #384656 ;
+  color:white;
+}
+
+@media (min-width: 1445px ) and (max-width:2000px){
+  .layout {
+    height: 400px;
+    top: 372px !important;
+    left: 85px !important;
+    border-radius: 8px ;
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.1); */
+  }
+  .css-1rgvkpo {
+    padding: 0 50px !important;
+  }
+  .shipment-row{
+    padding: 0;
+  }
+  .shipments-layout{
+  width: 352px;
+height: 259px;
+top: 466px;
+left: 111px;
+gap: 0px;
+
+} 
+}

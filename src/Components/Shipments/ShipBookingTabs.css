@@ -1,0 +1,168 @@
+:where(.css-1vr7spz).ant-input-affix-wrapper-lg {
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 8px;
+}
+:where(.css-1vr7spz).ant-input-affix-wrapper {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  min-width: 0;
+  color: rgba(0, 0, 0, 0.88);
+  background-color: #ffffff;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  transition: all 0.2s;
+}
+.filter-input {
+  border: 1px solid var(--colors-style-base-base-200, #cfd6df);
+  background: #fff;
+}
+
+.auth-logininputform {
+  padding: 10px !important;
+}
+:where(.css-1vr7spz).ant-input-affix-wrapper .ant-input-prefix,
+:where(.css-1vr7spz).ant-input-affix-wrapper .ant-input-suffix {
+  display: flex;
+  flex: none;
+  align-items: center;
+}
+.ant-input-prefix {
+  margin-right: 4px;
+}
+:where(.css-1vr7spz).ant-image {
+  position: relative;
+  display: inline-block;
+}
+:where(.css-1vr7spz).ant-input-affix-wrapper > input.ant-input {
+  padding: 0;
+  font-size: inherit;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  line-height: 1.5;
+}
+:where(.css-1vr7spz).ant-input:placeholder-shown {
+  text-overflow: ellipsis;
+}
+.ant-input {
+  caret-color: #2c83ec !important;
+  background: #fff !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.14px !important;
+}
+:where(.css-1vr7spz).ant-input {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.88);
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  background-color: #ffffff;
+  background-image: none;
+  transition: all 0.2s;
+}
+.ant-select-selector {
+  border: none !important;
+}
+.ant-picker {
+  border: none !important;
+}
+.ant-select-selector:focus-within {
+  border: none !important;
+  box-shadow: none !important;
+}
+.ant-picker:focus-within {
+  border: none !important;
+  box-shadow: none;
+}
+.ant-btn {
+  display: block !important;
+}
+.focused-border {
+  outline: 3px solid #fce2d5 !important;
+  border: 1px solid var(--colors-style-base-base-200, #cfd6df) !important;
+}
+.ant-tabs .ant-tabs-ink-bar {
+  background: #0DA3DE;
+  height: 4px !important;
+  border-radius: 4px 4px 0px 0px;
+  margin-left: 3px;
+}
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  font-weight: 600 !important;
+  color: #181e25 !important;
+}
+.ant-tabs-tab {
+  padding: 16px 16px 13px !important;
+  margin: 0 !important;
+}
+
+.ant-tabs-tab-btn {
+  color: #67788e !important;
+  font-size: 14px;
+  font-family: roboto, sans-serif;
+}
+/* .ant-tabs-nav {
+  margin: 0 !important;
+} */
+.viewtab-outer {
+  margin-left: 100px;
+}
+.ant-modal-content {
+  width: 100%;
+  top: 150px;
+  padding: 0 !important;
+  height: auto;
+  margin-left: 180px;
+}
+.custom-header1 {
+  background-color: rgb(25, 25, 101);
+  color: white;
+}
+.booked-cell {
+  border-left: 1px solid #008000;
+  display: flex;
+  justify-content: start;
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: rgba(0, 128, 0, 0.1);
+  display: inline-block;
+  height: 27px;
+  align-content: center !important;
+  align-self: center !important;
+}
+.booking-progress-cell {
+  background-color: #fcf0cc;
+  display: inline-block !important;
+  border-left: 1px solid #e3b04c;
+  display: flex;
+  justify-content: start;
+  padding-left: 8px;
+  padding-right: 8px;
+  float: left;
+  height: 27px;
+  align-content: center !important;
+  align-self: center !important;
+}
+.no-options {
+  text-align: center;
+  width: 100%; /* Ensure the div takes the full width of the cell */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  align-self: center;
+}
+
+
+.mapTable .ant-modal-content .ant-modal-body {
+  padding: 0;
+}
+

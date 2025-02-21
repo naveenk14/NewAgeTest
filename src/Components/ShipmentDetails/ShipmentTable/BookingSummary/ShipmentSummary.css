@@ -1,0 +1,111 @@
+.booking_summary{
+    padding: 20px 0px;
+}
+
+.booking_summary .Header{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(24, 30, 37, 1);
+    margin: 0 !important;
+    padding: 6px 28px;
+
+}
+.booking_summary .row_head{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(73, 90, 110, 1);
+
+
+}
+.booking_summary .row_head2{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(56, 70, 86, 1);
+
+}
+.booking_summary .parties_head{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(24, 30, 37, 1);
+    width:72.55px;
+    margin-right: 30px !important;
+
+}
+.booking_summary .parties_enterprise{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(73, 90, 110, 1);
+}
+.booking_summary .container_para{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(56, 70, 86, 1);
+    padding: 0px 12px;
+}
+.booking_summary .container_extrapara{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(56, 70, 86, 1);
+    padding: 0px 12px;
+    margin-bottom: 5px;
+}
+
+.booking_summary .card{
+    border: 1px solid #E7EAF0
+}
+.booking_summary .card-header{
+    background-color: #F8FAFC !important;
+    border-bottom: 1px solid #E7EAF0;
+    padding: 10px;
+}
+.booking_summary .Parties_row .card_body>div{
+    padding: 0px 12px;
+}
+
+/* This is for table head of container details */
+.booking_summary .ant-table-wrapper .ant-table-thead >tr>th{
+    background-color: #F8FAFC !important;
+    font-weight: 500;
+    letter-spacing: .01em;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* This is for container details overflow*/
+.booking_summary .ant-table-wrapper {
+    overflow-y: auto;
+    max-height: 500px;
+    border-radius: 8px;
+}
+
+/* .booking_summary .ant-input-outlined:focus-within{
+    border-color: #e5e5e5 !important;
+    box-shadow: none !important;
+}
+.booking_summary .ant-input{
+    caret-color: unset !important;
+}
+.booking_summary .ant-input-disabled:hover:not([disabled]){
+    background-color: unset !important;
+} */
