@@ -167,7 +167,7 @@ const Destination = ({
     const { value } = event.target;
     setSearchDestPort(value);
     if (value?.length >= 4) {
-      dispatch(allportRequest({ search_key: value, limits: "30" }));
+      dispatch(allportRequest({ name: value, limits: "30" }));
       setDestPortOptionsVisible(true);
     } else {
       setDestPortOptionsVisible(false);

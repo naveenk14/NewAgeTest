@@ -76,7 +76,7 @@ const QuotationTable = ({
     destination: [],
     load: [],
     weight: [],
-    volume: [],
+    Volume: [],
     tos: [],
     rate_validity: [],
     status: [],
@@ -112,7 +112,7 @@ const QuotationTable = ({
   const dest_ = getUniqueOptions(data, "destination");
   const load_ = getUniqueOptions(data, "load");
   const weight_ = getUniqueOptions(data, "weight");
-  const volume_ = getUniqueOptions(data, "volume");
+  const volume_ = getUniqueOptions(data, "Volume");
   const tos_ = getUniqueOptions(data, "tos");
   const rate_ = getUniqueOptions(data, "rate_validity");
   const status_ = getUniqueOptions(data, "status");
@@ -335,7 +335,7 @@ const QuotationTable = ({
                   {field === "origin" ? "Origin" : ""}
                   {field === "destination" ? "Destination" : ""}
                   {field === "weight" ? "Weight" : ""}
-                  {field === "volume" ? "Volume" : ""}
+                  {field === "Volume" ? "Volume" : ""}
                   &nbsp; :{" "}
                   {filterValues?.length === 1 ? (
                     <span className="me-2">{filterValues[0]}</span>
@@ -420,9 +420,10 @@ const QuotationTable = ({
         setrequstedModal(true);
       } else if (rowData.status === "Active") {
         navigate("/quick");
-      } else if (rowData.status === "Expired") {
+      } else if (rowData.status === "expired") {
         setHighlightShipmentCard(true);
-        setSelectedDataToPatch(rowData);
+        navigate('/quotation',{state:{rowData}}) 
+        // setSelectedDataToPatch(rowData);
       }
     };
 
@@ -482,12 +483,12 @@ const QuotationTable = ({
             textAlign: "start",
           }}
         >
-          {rowData?.origin.length <= 12 ? (
+          {rowData?.origin.length <= 10 ? (
             rowData?.origin
           ) : (
             <Tooltip placement="topLeft" title={rowData?.origin}>
               <span role="button">
-                {rowData?.origin.slice(0, 11).trim().split(" ").join("") + ".."}
+                {rowData?.origin.slice(0, 9).trim().split(" ").join("") + ".."}
               </span>
             </Tooltip>
           )}
@@ -500,12 +501,12 @@ const QuotationTable = ({
       <div className="origin-cell" style={{ textAlign: "start" }}>
         <CountryFlag countryCode={rowData?.destination_countrycode} />
         <span style={{ padding: "8px", fontWeight: "400", textWrap: "wrap" }}>
-          {rowData?.destination.length <= 12 ? (
+          {rowData?.destination.length <= 10 ? (
             rowData?.destination
           ) : (
             <Tooltip placement="topLeft" title={rowData?.destination}>
               <span role="button">
-                {rowData?.destination.slice(0, 11).trim().split("").join("") +
+                {rowData?.destination.slice(0, 9).trim().split("").join("") +
                   ".."}
               </span>
             </Tooltip>
@@ -758,12 +759,12 @@ const QuotationTable = ({
           className="p-3 text-start"
         ></Column>
         <Column
-          field="volume"
+          field="Volume"
           header={
             <span className="p-3 d-flex">
               Volume
-              {MultiSelectFilter("volume", volume_, tblFilter.volume, "VOLUME")}
-              {sort("volume")}
+              {MultiSelectFilter("Volume", volume_, tblFilter.volume, "VOLUME")}
+              {sort("Volume")}
             </span>
           }
           bodyClassName="custom-cell"

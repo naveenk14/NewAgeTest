@@ -45,6 +45,7 @@ const ShipmentCard = ({
   setorigin,
   setdes,
   UpcomingSailingsData,
+  QuotationsData
 }) => {
   const dispatch = useDispatch();
   const [destination] = useState("");
@@ -116,6 +117,8 @@ const ShipmentCard = ({
   console.log(UpcomingSailingsData)
   console.log(originPort)
 
+  //for UpcomingSailingsData
+
   useEffect(() => {
     if(UpcomingSailingsData){
       const originPayload = {
@@ -151,6 +154,44 @@ const ShipmentCard = ({
       setCargoOptionsVisible((prev)=>!prev)
     }
   }, [UpcomingSailingsData])
+
+  //for Quotations
+
+  useEffect(() => {
+    if(QuotationsData){
+      const originPayload = {
+        Transport_mode: "SEA",
+        air_port_code: "",
+        air_port_name: "",
+        list_value: QuotationsData?.origin,
+        port_code:QuotationsData?.origin_code,
+        port_country:  QuotationsData?.origin_country_code,
+        port_name: QuotationsData?.origin,
+        type : "PORT",
+        zip_code: ""
+      }
+      const destPayload = {
+        Transport_mode: "SEA",
+        air_port_code: "",
+        air_port_name: "",
+        list_value: QuotationsData?.destination ,
+        port_code:QuotationsData?.destination_code,
+        port_country:  QuotationsData?.dest_country_code,
+        port_name: QuotationsData?.destination,
+        type : "PORT",
+        zip_code: ""
+      }
+      setOriginPort(originPayload)
+      setDestPort(destPayload)
+      setSearchOriginPort(QuotationsData?.origin)
+      setSearchDestPort(QuotationsData?.destination )
+      setSearchOriginCode(QuotationsData?.origin_country_code)
+      setSearchDestCode(QuotationsData?.dest_country_code)
+      // setCargoOptionsVisible(true)
+      handleRateEngineClick()
+      setCargoOptionsVisible((prev)=>!prev)
+    }
+  }, [QuotationsData])
   
 
   // useEffect(() => {

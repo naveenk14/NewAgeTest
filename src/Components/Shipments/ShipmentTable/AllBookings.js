@@ -240,6 +240,7 @@ const AllBookings = ({
   };
 
   const shipmentTemplateId = (rowData) => {
+    if(!rowData?.order_no) return "";
     return (
       <div style={{ textAlign: "start" }}>
         <span className="">

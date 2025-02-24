@@ -62,6 +62,11 @@ const Origin = ({
     }
   }, [selectedDataToPatch]);
 
+  console.log(selectedDataToPatch)
+  console.log(originPort)
+  console.log(searchOriginPort)
+  console.log(searchOriginCode)
+
   const [selectedIndex, setSelectedIndex] = useState(0);
   const divRefs = useRef([]);
 

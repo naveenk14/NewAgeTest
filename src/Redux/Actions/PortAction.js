@@ -1,7 +1,7 @@
 //PortAction
 
 import * as Types from '../ActionTypes'
-export const portRequest = ({name, limits}) => ({
+export const portRequest = ({name, limits, transportMode}) => ({
     type: Types.PORT_REQUEST,
-    payload:{name, limits}
+    payload:{name, limits,transportMode}
   });
