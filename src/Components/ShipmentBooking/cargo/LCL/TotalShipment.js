@@ -955,6 +955,7 @@ useEffect(() => {
               }
               step={'any'}
               onWheel={(e) => e.target.blur()}
+              defaultValue={1}
               value={tsDatas?.no_of_units}
               name="no_of_units"
               ref={nunits}

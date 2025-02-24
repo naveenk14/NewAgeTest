@@ -44,7 +44,7 @@ export const Port = () => {
     const { value } = event.target;
     setSearchOriginPort(value);
     if (value.length >= 4) {
-      dispatch(portRequest({ name: value, limits: "4" }));
+      dispatch(portRequest({ name: value, limits: "4", transportMode : "Ocean" }));
       setOriginPortOptionsVisible(true);
     } else {
       setOriginPortOptionsVisible(false);
@@ -66,7 +66,7 @@ export const Port = () => {
     const { value } = event.target;
     setSearchDestPort(value);
     if (value.length >= 4) {
-      dispatch(portRequest({ name: value, limits: "4" }));
+      dispatch(portRequest({ name: value, limits: "4", transportMode : "Ocean" }));
       setDestPortOptionsVisible(true);
     } else {
       setDestPortOptionsVisible(false);

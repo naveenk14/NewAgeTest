@@ -1,5 +1,5 @@
 import * as Types from '../ActionTypes'
-export const allportRequest = ({search_key, limits}) => ({
+export const allportRequest = ({name, limits}) => ({
     type: Types.ALL_PORT_REQUEST,
-    payload:{search_key, limits}
+    payload:{name, limits}
   });

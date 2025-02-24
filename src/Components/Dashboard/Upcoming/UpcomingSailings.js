@@ -90,7 +90,7 @@ const UpcomingSailings = ({setOriginPort,setDestPort}) => {
   const handleBookNow = (e,data) => {
     e.preventDefault();
     e.stopPropagation();
-    console.log("booknow");
+    console.log("booknow",data);
     // if(data?.origin){
     //   dispatch(allportRequest({ search_key: data?.origin, limits: "1" }));
     //   setOriginPort(originPortDataValue[0])
@@ -234,7 +234,7 @@ const UpcomingSailings = ({setOriginPort,setDestPort}) => {
                   alignSelf: "center",
                   pointerEvents: "auto"
                 }}
-                // onClick={(e)=>handleBookNow(e,data)}
+                onClick={(e)=>handleBookNow(e,data)}
               >
                 <span style={{ fontSize: "13px" }} >Book Now</span>
               </button>

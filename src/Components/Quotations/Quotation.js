@@ -18,7 +18,9 @@ const Quotation = ({
   setDestPort,
 }) => {
   const { state } = useLocation();
-  const UpcomingSailingsData = state?.data;
+  console.log(state);
+  const UpcomingSailingsData = state?.data ;
+  const QuotationsData = state?.rowData
   console.log(UpcomingSailingsData);
   const [selectedCurrency, setSelectedCurrency] = useState("USD");
   const [checkedItems, setCheckedItems] = useState({
@@ -56,14 +58,31 @@ const Quotation = ({
     }
   };
 
+  const handleBackgroundClose = (e) => {
+    setHighlightShipmentCard((prev)=> !prev);
+  }
+
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, [showReselt]);
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, [highlightShipmentCard]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [highlightShipmentCard]);
+
+  useEffect(() => {
+    const handleEscape = (event) => {
+        if (event.key === "Escape") {
+          setHighlightShipmentCard(false);
+        }
+    };
+
+    document.addEventListener("keydown", handleEscape);
+    return () => {
+        document.removeEventListener("keydown", handleEscape);
+    };
+}, []);
 
   return (
     <div
@@ -101,6 +120,7 @@ const Quotation = ({
             }
            ${highlightShipmentCard ? "dimmed-background1" : ""}
              `}
+             onClick={(e)=>handleBackgroundClose(e)}
           >
             <ShipmentCard
               setShowReselt={setShowReselt}
@@ -131,6 +151,7 @@ const Quotation = ({
               setorigin={setorigin}
               setdes={setdes}
               UpcomingSailingsData={UpcomingSailingsData}
+              QuotationsData={QuotationsData}
             />
           </div>
         </div>
