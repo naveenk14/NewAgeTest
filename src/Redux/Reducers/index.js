@@ -27,6 +27,7 @@ import ContainerPackReducer from './ContainerPackReducer';
 import InvoiceCashReducer from './InvoiceCashReducer';
 import logReducer from './LogReducer';
 import ForgotPswdReducer from './ForgotPswdReducer';
+import QuotationDownloadReducer from './QuotationDownloadReducer';
 
 const rootReducer = combineReducers({
     ShipmentCount: shipmentCountReducer,
@@ -42,6 +43,7 @@ const rootReducer = combineReducers({
     UploadDocument:UploadDocumentReducer,
     CancelBooking: CancelBookingReducer,
     QuotationList: QuotationReducer,
+    QuotationDownload: QuotationDownloadReducer,
     ProfileData: ProfileReducer,
     UpdatePassword: UpdatePasswordReducer,
     DsrReport: DsrReportReducer,

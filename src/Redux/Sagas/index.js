@@ -27,6 +27,7 @@ import watchCPack from "./ContainerPackSaga";
 import watchInvoiceCash from "./InvoiceCashSaga";
 import watchLog from "./LogSaga";
 import watchForgetPswd from "./ForgotPswdSaga";
+import watchQuotationDownload from "./QuotationDownloadSaga";
 
 export default function* rootSaga() {
   yield all([
@@ -58,5 +59,6 @@ export default function* rootSaga() {
     watchInvoiceCash(),
     watchLog(),
     watchForgetPswd(),
+    watchQuotationDownload(),
   ]);
 }
