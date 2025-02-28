@@ -70,7 +70,7 @@ const Header = ({ setShowText, setShowmap,setShowReselt }) => {
 
   const handleLogout = () => {
     Cookies.remove("jwtToken");
-    window.location.href = "http://webtool.newage-nxt.com";
+    window.location.href = "/";
   };
 
   const items = [

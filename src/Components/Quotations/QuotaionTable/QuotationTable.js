@@ -30,6 +30,7 @@ import getSymbolFromCurrency from "currency-symbol-map";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { IoCloseCircleSharp } from "react-icons/io5";
 import { BsThreeDotsVertical } from "react-icons/bs";
+import { QuotationDownloadRequest } from "../../../Redux/Actions/QuotationDownloadAction";
 
 const QuotationTable = ({
   filterData,
@@ -53,6 +54,7 @@ const QuotationTable = ({
   // setSelectedDropdownItem,
 }) => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   // const dispatch = useDispatch();
   console.log(filterValue)
   const [requstedModal, setrequstedModal] = useState(false);
@@ -390,7 +392,7 @@ const QuotationTable = ({
       buttonLabel = "Book For $300";
       btnClass = "dangerBtn";
     } else if (rowData.status === "active") {
-      buttonLabel = `Book For ${getSymbolFromCurrency("KWD")} ${
+      buttonLabel = `Book For ${rowData?.quotation_currency} ${
         rowData?.quotation_amount
       }`;
       btnClass = "dangerBtn";
@@ -428,15 +430,18 @@ const QuotationTable = ({
     };
 
     const downloadFile = () => {
-      console.log(rowData?.quotations_link);
-      const fileUrl = rowData?.quotations_link; // The file URL from the API response
-      const link = document.createElement("a");
-      link.target = "_blank";
-      link.href = fileUrl;
-      link.setAttribute("download", "file.pdf"); // Optionally specify the file name
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+      // console.log(rowData?.quotation_link);
+      // const fileUrl = rowData?.quotation_link; // The file URL from the API response
+      // const link = document.createElement("a");
+      // link.target = "_blank";
+      // link.href = fileUrl;
+      // link.setAttribute("download", "file.pdf"); // Optionally specify the file name
+      // document.body.appendChild(link);
+      // link.click();
+      // document.body.removeChild(link);
+      // const data = await fetch(rowData?.quotation_link)
+      const payload = rowData && rowData?.EqId;
+      dispatch(QuotationDownloadRequest({payload}));
     };
 
     return (
